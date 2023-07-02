@@ -1,0 +1,43 @@
+main {
+background-color: #fff;
+color: #000;
+grid-column: 2 /-2;
+}
+
+.head {
+grid-column: 2 / -2;
+text-align: center;
+margin-top: 3em;
+margin-bottom: 3em;
+}
+
+.page-title {
+color: #000;
+font-size: 2.5rem;
+justify-self: center;
+}
+
+.main-image {
+grid-column: 2 / -2;
+object-fit: cover;
+max-width: 100%;
+display: block;
+box-shadow: 10px 10px 250px #000;
+}
+
+.main-text {
+grid-column: 2 / -2;
+margin-top: 3em;
+margin-bottom: 3em;
+}
+
+.section-title::after {
+content: "";
+display: block;
+width: 100px;
+height: 3px;
+margin-top: 1em;
+background: #fda039;
+margin-left: auto;
+margin-right: auto;
+}

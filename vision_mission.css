@@ -1,0 +1,175 @@
+
+.img
+{
+    
+	height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top:70px;
+    border-radius: 5%;
+    transition: transform .2s;
+  
+}
+.img:hover {
+  transform: scale(1.1);  
+}
+@keyframes img {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.image-left, .image-right
+{
+	margin: 1em 0;
+}
+
+@media (min-width: 20em)
+{
+	.image-left, .image-right
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.image-left img
+	{
+		margin-right: 1em;
+		float: left;  
+	}
+
+	.image-right img
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right; 
+	}
+	
+	 
+	.image-left::after,
+	.image-right::after
+	{
+		content: "";
+  	display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 30em)
+{
+	.image-left img, .image-right img
+	{
+		flex-shrink: 0;
+	}
+}
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 500;
+  transform: translate(-50%, -50%);
+  color: rgb(63, 63, 53);
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.img1
+{
+    
+	height: 300px;
+    width: 300px;
+    margin-left:600px;
+    margin-bottom:250px;
+	margin-top:80px;
+    border-radius: 5%;
+    transition: transform .2s;
+
+  
+}
+.img1:hover {
+  transform: scale(1.1);  
+}
+@keyframes img1 {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.image-left, .image-right
+{
+	margin: 1em 0;
+}
+
+@media (min-width: 20em)
+{
+	.image-left, .image-right
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.image-left .img1
+	{
+		margin-right: 1em;
+		float: left;  
+	}
+
+	.image-right .img1
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right; 
+	}
+	
+	 
+	.image-left::after,
+	.image-right::after
+	{
+		content: "";
+  	display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 30em)
+{
+	.image-left img, .image-right img
+	{
+		flex-shrink: 0;
+	}
+}
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 500;
+  transform: translate(-50%, -50%);
+  color: rgb(63, 63, 53);
+  font-size: 50px;
+  text-align: center;
+}
+.vmdiv
+{
+    
+    height:300px;
+    width:500px;
+}
+
+.vmdiv1
+{
+    margin-bottom:140px;
+    height:300px;
+	margin-left:200px;
+    width:500px;
+}

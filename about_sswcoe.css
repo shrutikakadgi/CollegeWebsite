@@ -1,0 +1,79 @@
+.simg
+{
+    width:100%;
+    margin-top:20px;
+    height:600px;
+    opacity:0.6;
+    
+}
+.sh1
+{
+    font-size:30px;
+    color:black;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    margin-top:50px;
+    
+}
+.centered {
+    position: absolute;
+    bottom: 140%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  } 
+  .sh2
+  {
+    font-size:40px;
+    color:black;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    margin-top:30px;
+  }
+  .sdiv
+  {
+    width:95%;
+    margin-left:30px;
+    border:1px solid black;
+    border-radius:30px;
+    
+  }
+  .sp
+  {
+    font-size: 20px;
+    font-family: serif;
+    color:black;
+    margin-left:20px;
+  }
+  .sf
+  {
+    font-size: 20px;
+    font-family: serif;
+    color:black;
+    width:400px;
+    text-align: center;
+    border:2px solid black;
+    margin-left:500px;
+    margin-top:20px;
+    font-weight: bold;
+  }
+  .spdiv
+  {
+    width:95%;
+    border:1px solid black;
+    border-radius:30px;
+    margin-left:30px;
+    margin-top:25px;
+  }
+  .sp1
+  {
+    font-size: 20px;
+    font-family: serif;
+    color:black;
+    margin-left:20px;
+   
+  }

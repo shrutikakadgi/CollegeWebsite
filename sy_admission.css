@@ -1,0 +1,44 @@
+.fy{
+    align-items: center;
+    background-color:rgb(201, 194, 192);
+    height: 750px;
+    width: 700px;
+    margin-left: 350px;
+}
+.heading{
+    font-family: serif;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: solid;
+    color:orangered;
+    
+   
+}
+.heading2{
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 50px;
+     
+
+}
+.fimg
+{
+    height: 800px;
+    width: 700px;
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:350px;
+
+}
+
+
+.fimg1
+{
+   
+    
+    border:1px solid black;
+    margin-top:100px;
+    margin-left:40px;
+
+}

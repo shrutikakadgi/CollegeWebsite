@@ -1,0 +1,101 @@
+.paids
+{
+    
+    float:right;
+    width:550px;
+    margin-right:200px;
+    margin-top:80px;
+    height:350px;
+
+}
+.btnaids
+{
+    
+    background-color:#FF8C00;
+    align-items: center;
+   
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    height:50px;
+    width:150px;
+   
+}
+.overlay1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay1:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup1 {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    height:55%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin-top:200px;
+  }
+  
+  .popup1 h2 {
+    margin-top: 0;
+    color:black;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup1 .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+  }
+  .popup1 .close:hover {
+    color:#0A66C2;
+  }
+  .popup1 .content {
+    max-height: 120%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup1{
+      width: 70%;
+    }
+  }
+ .he1
+   {
+       color:black;
+       font-size:20px;
+   }
+   .paids{
+    color:black;
+    text-align: justify;
+    font-size:20px;
+    font-family: serif;
+    font-weight: 200;
+   }
